@@ -1,0 +1,39 @@
+.container {
+    position: absolute;
+    width: 720px;
+    height: 412px;
+    background-image: url(/Project1/Space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    
+    
+}
+h1 { 
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 200;
+}
+body{
+    background-color: #191919;
+    color:#fff;
+    font-family: Jost;
+}
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    width: 90px;
+    height: ;
+    border: none;
+    border-radius: 5px;
+}
