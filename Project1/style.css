@@ -2,7 +2,7 @@
     position: absolute;
     width: 720px;
     height: 412px;
-    background-image: url(/Project1/Space.jpg);
+    background-image: url(Space.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     top: 50%;
@@ -22,18 +22,43 @@ body{
     color:#fff;
     font-family: Jost;
 }
-.btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 button{
     font-size: 16px;
     padding: 5px 10px;
-    margin: 0px 10px;
-    width: 90px;
-    height: ;
+    
+    width: 100px;
+    height: 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    color: #fff;
 }
+.red{
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -25%);
+}
+.cyan{
+    position: absolute;
+    background-color: cyan;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.blue{
+    position: absolute;
+    background-color: blue;
+    top: 56%;
+    left: 75%;
+    transform: translate(-50%, -75%);
+}
+
+
+
+
+
+
+
+
