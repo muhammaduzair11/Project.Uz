@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b5b5b5;
+}
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #b5b5b5;
+    width: 100%;
+    height: 100%;
+    
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+    position: relative;
+    width: 40vh;
+    height: 40vh;
+    background-color: #c4c4c4;
+
+}
+h2 {
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Jolly Lodger';
+}
+p{
+    padding: 0px 20px;
+    font-family: 'acme';
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: justify;
+}
