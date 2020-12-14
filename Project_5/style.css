@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'jost';
+}
+#nav {
+    display: flex;
+    background-color: #1b242f;
+    color: #fff;
+    justify-content: space-between;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    align-items: center;
+}
+.content{
+    max-width: 30em;
+    max-height: 20em;
+    background-color: #82878d;
+}
+.sign_in {
+    min-width: 30em;
+    background-color: #1b242f;
+    color: #fff;
+    border-radius: 1em;
+}
+.heading h1{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight: 500;
+    
+}
+.form{
+    display: flex;
+    height: 20em;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    margin: 0.2rem;
+    padding: 0.5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+.sign_in a{
+    color: #605C5C;
+
+}
+.sign_in a:hover {
+    text-decoration: underline;
+}
+h2:hover{
+    
+}
+ul{
+    display: flex;
+}
+hr {
+    color: #fff;
+    margin: 5px 2.5em;
+    width: 25em;
+    height: 3px;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff; 
+}
+li{
+    list-style: none;
+    margin: 2rem 1rem;
+    padding: 0 1em;
+    border-radius: 1em;
+}
+h1 {
+    padding: 1.5rem 0 1.5rem 3rem;
+    font-family: 'italiana';
+    font-weight: 300;
+}
+h2 {
+    text-align: center;
+    padding: 3rem 0 0 0;
+    font-size: 2rem;
+}
+button{
+    padding: .5em 2em;
+    margin-left: 8em;
+    background-color: #2379a9;
+    border-radius: 1em;
+}
+.heading {
+    background-color: #1b242f;
+}
+p{
+    padding: 1em;
+    font-size: 16px;
+}
+.small {
+    font-size: 14px;
+}
+.sign {
+    background-color: #2379a9;
+}
