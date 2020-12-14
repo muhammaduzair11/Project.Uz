@@ -41,10 +41,11 @@ body{
     height: 20em;
     justify-content: center;
     align-items: center;
+    line-height: 2em;
 }
 .input {
     margin: 0.2rem;
-    padding: 0.5rem;
+    padding: 0.7rem;
     width: 20rem;
     border-radius: 0.5rem;
 }
@@ -52,11 +53,16 @@ body{
     color: #605C5C;
 
 }
+.content h1{
+    font-family: 'jost';
+    font-weight: 700;
+}
+.sign_in h2:hover{
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
 .sign_in a:hover {
     text-decoration: underline;
-}
-h2:hover{
-    
 }
 ul{
     display: flex;
